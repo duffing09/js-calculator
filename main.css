@@ -1,0 +1,44 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    align-content: center;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* header {
+    
+} */
+#display {
+    width: 75%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttons {
+    border: 2px solid pink;
+    background-color: pink;
+}
+.button {
+    padding: 10%;
+    background-color: purple;
+    margin-top: 5px;
+}
+
+#equals {
+    border: 2px solid red;
+    padding: 10%;
+    background-color: red;
+    margin-top: 5px;
+}
+
+#clear {
+    border: 2px solid purple;
+    padding: 10%;
+    background-color: purple;
+}
+
